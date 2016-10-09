@@ -19,7 +19,7 @@ void main(){
 
    LCD_SetPosition(0x00); //Cot 1 dong 1
    LCD_PutChar("Dem so:");
-   while (True){  
+   while (True) {  
       count = 0;
       for (i = 0; i<= N_max; i++){        
          LCD_SetPosition(0x07); //Cot 8 dong 1
