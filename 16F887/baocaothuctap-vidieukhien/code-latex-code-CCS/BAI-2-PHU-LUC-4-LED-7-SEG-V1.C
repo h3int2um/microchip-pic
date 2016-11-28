@@ -11,7 +11,7 @@
 //Khai bao ma code cho LED 7 doan co Anode chung
 //Cac so tu 0 - 9; cac chu tu A - F
 unsigned char code7seg[] = {0xC0, 0xF9, 0xA4, 0xB0, 0x99, 0x92, 0x82, 0xF8, 0x80, 0x90};
-unsigned char digits[] = {PIN_C0, PIn_C1, PIN_C2, PIN_C3};
+unsigned char digits[] = {PIN_C0, PIN_C1, PIN_C2, PIN_C3};
 void main(){    
     unsigned long count,i;
     int a,b,c,d;
